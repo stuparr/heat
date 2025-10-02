@@ -1,0 +1,26 @@
+Daemon process terminated and closed the connection
+
+Messages from the log:
+[NX v21.6.2 Daemon Server] - 2025-10-02T13:54:10.571Z - Done responding to the client handleHashMultiGlob
+[NX v21.6.2 Daemon Server] - 2025-10-02T13:54:10.571Z - Handled HASH_GLOB. Handling time: 0. Response time: 0.
+Time for 'nx/js/dependencies-and-lockfile:createNodes' 3.066459000001487
+Time for 'total for sendMessageToDaemon()' 1.6835409999985131
+Time for 'deserialize daemon response' 0.0057500000002619345
+Time for '@nx/playwright/plugin:createNodes' 4.598042000001442
+Time for 'total for sendMessageToDaemon()' 1.9917920000007143
+Time for 'deserialize daemon response' 0.007667000001674751
+Time for '@nx/js/typescript:createNodes' 5.897375000000466
+Time for '@nx/eslint/plugin:createNodes' 18.481707999999344
+[NX v21.6.2 Daemon Server] - 2025-10-02T13:54:10.610Z - [WATCHER]: Processing file changes in outputs
+[NX v21.6.2 Daemon Server] - 2025-10-02T13:54:10.612Z - [WATCHER]: 3 file(s) created or restored, 3 file(s) modified, 2 file(s) deleted
+[NX v21.6.2 Daemon Server] - 2025-10-02T13:54:10.613Z - Closed a connection. Number of open connections: 3
+[NX v21.6.2 Daemon Server] - 2025-10-02T13:54:10.613Z - Closed a connection. Number of open connections: 2
+[NX v21.6.2 Daemon Server] - 2025-10-02T13:54:10.613Z - Closed a connection. Number of open connections: 1
+[NX v21.6.2 Daemon Server] - 2025-10-02T13:54:10.613Z - Closed a connection. Number of open connections: 0
+[NX v21.6.2 Daemon Server] - 2025-10-02T13:54:10.613Z - [WATCHER]: Stopping the watcher for /Users/stuartparr/Projects/ai/heat (sources)
+[NX v21.6.2 Daemon Server] - 2025-10-02T13:54:10.613Z - [WATCHER]: Stopping the watcher for /Users/stuartparr/Projects/ai/heat (outputs)
+[NX v21.6.2 Daemon Server] - 2025-10-02T13:54:10.614Z - Server stopped because: "Stopping the daemon the set of ignored files changed (native)"
+
+
+
+More information: /Users/stuartparr/Projects/ai/heat/.nx/workspace-data/d/daemon.log
