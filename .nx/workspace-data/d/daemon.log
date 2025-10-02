@@ -3375,3 +3375,106 @@ Time for '@nx/eslint/plugin:createNodes' 503.281666
 Time for 'build typescript dependencies' 0.09908400000006168
 [NX v21.6.2 Daemon Server] - 2025-10-02T13:54:12.234Z - Time taken for 'nx/js/dependencies-and-lockfile:createDependencies' 8.306082999999944ms
 Creating project graph dependencies with 3 plugins
+[NX v21.6.2 Daemon Server] - 2025-10-02T13:59:26.587Z - [WATCHER]: docs/app-overview.md was modified
+[NX v21.6.2 Daemon Server] - 2025-10-02T13:59:26.587Z - [WATCHER]: Processing file changes in outputs
+[NX v21.6.2 Daemon Server] - 2025-10-02T13:59:26.791Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.6.2 Daemon Server] - 2025-10-02T13:59:26.791Z - [REQUEST]: docs/app-overview.md
+[NX v21.6.2 Daemon Server] - 2025-10-02T13:59:26.791Z - [REQUEST]: 
+[NX v21.6.2 Daemon Server] - 2025-10-02T13:59:26.794Z - Time taken for 'hash changed files from watcher' 2.2005409999983385ms
+Time for 'nx/core/project-json:createNodes' 0.11112499999580905
+Time for '@nx/playwright/plugin:createNodes' 3.8482920000096783
+Time for '@nx/eslint/plugin:createNodes' 4.597458000003826
+Time for 'nx/core/package-json:createNodes' 6.983583000022918
+Time for '@nx/react/router-plugin:createNodes' 8.592041999974754
+Time for 'nx/js/dependencies-and-lockfile:createNodes' 10.79854200000409
+Time for '@nx/js/typescript:createNodes' 14.299958999967203
+[NX v21.6.2 Daemon Server] - 2025-10-02T13:59:30.669Z - [WATCHER]: docs/app-overview.md was modified
+[NX v21.6.2 Daemon Server] - 2025-10-02T13:59:30.669Z - [WATCHER]: Processing file changes in outputs
+[NX v21.6.2 Daemon Server] - 2025-10-02T13:59:31.071Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.6.2 Daemon Server] - 2025-10-02T13:59:31.071Z - [REQUEST]: docs/app-overview.md
+[NX v21.6.2 Daemon Server] - 2025-10-02T13:59:31.071Z - [REQUEST]: 
+Time for 'nx/core/project-json:createNodes' 0.10875000001396984
+[NX v21.6.2 Daemon Server] - 2025-10-02T13:59:31.079Z - Time taken for 'hash changed files from watcher' 0.2824999999720603ms
+Time for '@nx/react/router-plugin:createNodes' 4.14100000000326
+Time for 'nx/core/package-json:createNodes' 1.7481250000419095
+Time for '@nx/playwright/plugin:createNodes' 3.7321249999804422
+Time for '@nx/eslint/plugin:createNodes' 4.724958000006154
+Time for '@nx/js/typescript:createNodes' 7.973874999966938
+Time for 'nx/js/dependencies-and-lockfile:createNodes' 7.46795799996471
+Creating project graph nodes with 8 plugins
+Creating project graph nodes with 8 plugins
+[NX v21.6.2 Daemon Server] - 2025-10-02T14:04:12.238Z - Error detected when creating a project graph: Failed to create project graph. See above for errors
+[NX v21.6.2 Daemon Server] - 2025-10-02T14:04:12.241Z - Wrote project graph cache to /Users/stuartparr/Projects/ai/heat/.nx/workspace-data/project-graph.json with errors
+[NX v21.6.2 Daemon Server] - 2025-10-02T14:04:12.241Z - Time taken for 'createDependencies' 600001.836959ms
+[NX v21.6.2 Daemon Server] - 2025-10-02T14:09:26.815Z - Time taken for 'build-project-configs' 595722.670791ms
+[NX v21.6.2 Daemon Server] - 2025-10-02T14:09:26.817Z - Time taken for '@nx/js/typescript:createDependencies' 6.32487500004936ms
+Time for 'build typescript dependencies' 0.012290999991819263
+[NX v21.6.2 Daemon Server] - 2025-10-02T14:09:26.825Z - Time taken for 'nx/js/dependencies-and-lockfile:createDependencies' 11.151249999995343ms
+[NX v21.6.2 Daemon Server] - 2025-10-02T14:09:31.096Z - Time taken for 'build-project-configs' 600006.620916ms
+[NX v21.6.2 Daemon Server] - 2025-10-02T14:09:31.099Z - Time taken for '@nx/js/typescript:createDependencies' 8.614041999913752ms
+Time for 'build typescript dependencies' 0.011332999914884567
+[NX v21.6.2 Daemon Server] - 2025-10-02T14:09:31.104Z - Time taken for 'nx/js/dependencies-and-lockfile:createDependencies' 10.088791999965906ms
+Creating project graph dependencies with 3 plugins
+Creating project graph dependencies with 3 plugins
+[NX v21.6.2 Daemon Server] - 2025-10-02T14:18:15.925Z - [WATCHER]: .DS_Store was modified
+[NX v21.6.2 Daemon Server] - 2025-10-02T14:18:15.926Z - [WATCHER]: Processing file changes in outputs
+[NX v21.6.2 Daemon Server] - 2025-10-02T14:18:16.726Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.6.2 Daemon Server] - 2025-10-02T14:18:16.726Z - [REQUEST]: .DS_Store
+[NX v21.6.2 Daemon Server] - 2025-10-02T14:18:16.726Z - [REQUEST]: 
+[NX v21.6.2 Daemon Server] - 2025-10-02T14:18:16.802Z - Time taken for 'hash changed files from watcher' 0.5399169998709112ms
+Time for 'nx/core/project-json:createNodes' 0.2519160001538694
+Time for 'nx/core/package-json:createNodes' 7.3468749998137355
+Time for 'nx/js/dependencies-and-lockfile:createNodes' 9.186999999918044
+Time for '@nx/playwright/plugin:createNodes' 18.13129200018011
+Time for '@nx/eslint/plugin:createNodes' 20.509542000014335
+Time for '@nx/js/typescript:createNodes' 23.646582999965176
+Time for '@nx/react/router-plugin:createNodes' 24.17741599981673
+Creating project graph nodes with 8 plugins
+[NX v21.6.2 Daemon Server] - 2025-10-02T14:19:26.782Z - Error detected when creating a project graph: Failed to create project graph. See above for errors
+[NX v21.6.2 Daemon Server] - 2025-10-02T14:19:26.784Z - Wrote project graph cache to /Users/stuartparr/Projects/ai/heat/.nx/workspace-data/project-graph.json with errors
+[NX v21.6.2 Daemon Server] - 2025-10-02T14:19:26.784Z - Time taken for 'createDependencies' 595722.3742080001ms
+[NX v21.6.2 Daemon Server] - 2025-10-02T14:19:31.063Z - Error detected when creating a project graph: Failed to create project graph. See above for errors
+[NX v21.6.2 Daemon Server] - 2025-10-02T14:19:31.065Z - Wrote project graph cache to /Users/stuartparr/Projects/ai/heat/.nx/workspace-data/project-graph.json with errors
+[NX v21.6.2 Daemon Server] - 2025-10-02T14:19:31.066Z - Time taken for 'createDependencies' 600002.9097910001ms
+[NX v21.6.2 Daemon Server] - 2025-10-02T14:28:16.802Z - Time taken for 'build-project-configs' 600004.6429590001ms
+[NX v21.6.2 Daemon Server] - 2025-10-02T14:28:16.807Z - Time taken for '@nx/js/typescript:createDependencies' 12.814458000008017ms
+Time for 'build typescript dependencies' 0.03279199986718595
+[NX v21.6.2 Daemon Server] - 2025-10-02T14:28:16.823Z - Time taken for 'nx/js/dependencies-and-lockfile:createDependencies' 24.507166999857873ms
+Creating project graph dependencies with 3 plugins
+[NX v21.6.2 Daemon Server] - 2025-10-02T14:38:16.798Z - Error detected when creating a project graph: Failed to create project graph. See above for errors
+[NX v21.6.2 Daemon Server] - 2025-10-02T14:38:16.800Z - Wrote project graph cache to /Users/stuartparr/Projects/ai/heat/.nx/workspace-data/project-graph.json with errors
+[NX v21.6.2 Daemon Server] - 2025-10-02T14:38:16.801Z - Time taken for 'createDependencies' 600005.554208ms
+[NX v21.6.2 Daemon Server] - 2025-10-02T14:41:37.828Z - [WATCHER]: Processing file changes in outputs
+[NX v21.6.2 Daemon Server] - 2025-10-02T14:41:37.835Z - [WATCHER]: docs/design.pdf was modified
+[NX v21.6.2 Daemon Server] - 2025-10-02T14:41:39.441Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.6.2 Daemon Server] - 2025-10-02T14:41:39.441Z - [REQUEST]: docs/design.pdf
+[NX v21.6.2 Daemon Server] - 2025-10-02T14:41:39.441Z - [REQUEST]: 
+[NX v21.6.2 Daemon Server] - 2025-10-02T14:41:39.447Z - Time taken for 'hash changed files from watcher' 2.2289169998839498ms
+Time for 'nx/core/project-json:createNodes' 0.350125000346452
+Time for 'nx/core/package-json:createNodes' 4.961291000247002
+Time for '@nx/playwright/plugin:createNodes' 6.5095830000936985
+Time for '@nx/react/router-plugin:createNodes' 9.114874999970198
+Time for '@nx/eslint/plugin:createNodes' 8.737249999772757
+Time for 'nx/js/dependencies-and-lockfile:createNodes' 10.091708000283688
+Time for '@nx/js/typescript:createNodes' 17.705000000074506
+[NX v21.6.2 Daemon Server] - 2025-10-02T14:41:57.293Z - [WATCHER]: 0 file(s) created or restored, 1 file(s) modified, 1 file(s) deleted
+[NX v21.6.2 Daemon Server] - 2025-10-02T14:41:57.293Z - [WATCHER]: Processing file changes in outputs
+[NX v21.6.2 Daemon Server] - 2025-10-02T14:42:00.496Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.6.2 Daemon Server] - 2025-10-02T14:42:00.496Z - [REQUEST]: docs/figma-design.pdf
+[NX v21.6.2 Daemon Server] - 2025-10-02T14:42:00.496Z - [REQUEST]: docs/design.pdf
+Time for 'nx/core/project-json:createNodes' 0.1413749996572733
+[NX v21.6.2 Daemon Server] - 2025-10-02T14:42:00.503Z - Time taken for 'hash changed files from watcher' 2.1140829999931157ms
+Time for '@nx/react/router-plugin:createNodes' 4.276542000006884
+Time for 'nx/core/package-json:createNodes' 2.2712500002235174
+Time for '@nx/playwright/plugin:createNodes' 2.935833000112325
+Time for '@nx/eslint/plugin:createNodes' 4.763584000058472
+Time for '@nx/js/typescript:createNodes' 9.191499999724329
+Time for 'nx/js/dependencies-and-lockfile:createNodes' 7.551957999821752
+Creating project graph nodes with 8 plugins
+Creating project graph nodes with 8 plugins
+[NX v21.6.2 Daemon Server] - 2025-10-02T14:44:22.908Z - [WATCHER]: Processing file changes in outputs
+[NX v21.6.2 Daemon Server] - 2025-10-02T14:44:22.914Z - [WATCHER]: package.json was modified
+[NX v21.6.2 Daemon Server] - 2025-10-02T14:44:23.039Z - [WATCHER]: Processing file changes in outputs
+[NX v21.6.2 Daemon Server] - 2025-10-02T14:44:23.039Z - [WATCHER]: Stopping the watcher for /Users/stuartparr/Projects/ai/heat (sources)
+[NX v21.6.2 Daemon Server] - 2025-10-02T14:44:23.039Z - [WATCHER]: Stopping the watcher for /Users/stuartparr/Projects/ai/heat (outputs)
+[NX v21.6.2 Daemon Server] - 2025-10-02T14:44:23.039Z - Server stopped because: "LOCK_FILES_CHANGED"

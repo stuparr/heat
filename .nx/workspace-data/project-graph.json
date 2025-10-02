@@ -16,22 +16,7 @@
             },
             "cache": true,
             "inputs": [
-              "{projectRoot}/package.json",
-              "{workspaceRoot}/tsconfig.base.json",
-              "{projectRoot}/tsconfig.json",
-              "{projectRoot}/**/*.ts",
-              "{projectRoot}/**/*.js",
-              "{projectRoot}/playwright.config.ts",
-              "{projectRoot}/src/**/*.spec.ts",
-              "{projectRoot}/src/**/*.spec.js",
-              "{projectRoot}/src/**/*.test.ts",
-              "{projectRoot}/src/**/*.test.js",
-              "{projectRoot}/src/**/*.d.ts",
-              "!{projectRoot}/out-tsc",
-              "!{projectRoot}/test-output",
-              "!{projectRoot}/eslint.config.js",
-              "!{projectRoot}/eslint.config.mjs",
-              "!{projectRoot}/eslint.config.cjs",
+              "production",
               "^production",
               {
                 "externalDependencies": [
@@ -41,7 +26,6 @@
             ],
             "outputs": [
               "{projectRoot}/out-tsc/playwright/**/*.d.ts",
-              "{projectRoot}/out-tsc/playwright/**/*.d.ts.map",
               "{projectRoot}/out-tsc/playwright/tsconfig.tsbuildinfo"
             ],
             "syncGenerators": [
@@ -318,11 +302,22 @@
               }
             ],
             "outputs": [
+              "{projectRoot}/**/*.js",
+              "{projectRoot}/**/*.cjs",
+              "{projectRoot}/**/*.mjs",
+              "{projectRoot}/**/*.jsx",
+              "{projectRoot}/**/*.js.map",
+              "{projectRoot}/**/*.jsx.map",
+              "{projectRoot}/**/*.d.ts",
+              "{projectRoot}/**/*.d.cts",
+              "{projectRoot}/**/*.d.mts",
+              "{projectRoot}/**/*.d.ts.map",
+              "{projectRoot}/**/*.d.cts.map",
+              "{projectRoot}/**/*.d.mts.map",
+              "{projectRoot}/tsconfig.tsbuildinfo",
               "{projectRoot}/dist/**/*.d.ts",
-              "{projectRoot}/dist/**/*.d.ts.map",
               "{projectRoot}/dist/tsconfig.app.tsbuildinfo",
               "{projectRoot}/out-tsc/vitest/**/*.d.ts",
-              "{projectRoot}/out-tsc/vitest/**/*.d.ts.map",
               "{projectRoot}/out-tsc/vitest/tsconfig.tsbuildinfo"
             ],
             "syncGenerators": [
@@ -2346,6 +2341,15 @@
         "version": "4.1.2",
         "packageName": "chalk",
         "hash": "sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA=="
+      }
+    },
+    "npm:chalk@5.6.2": {
+      "type": "npm",
+      "name": "npm:chalk@5.6.2",
+      "data": {
+        "version": "5.6.2",
+        "packageName": "chalk",
+        "hash": "sha512-7NzBL0rN6fMUW+f7A6Io4h40qQlG+xGmtMxfbnH/K7TAtt8JQWVQK+6g0UXKMeVJoyV5EkkNsErQ8pVD3bLHbA=="
       }
     },
     "npm:@module-federation/data-prefetch": {
@@ -11265,6 +11269,15 @@
         "version": "1.2.0",
         "packageName": "setprototypeof",
         "hash": "sha512-E5LDX7Wrp85Kil5bhZv46j8jOeboKq5JMmYM3gVGdGH8xFpPWXUMsNrlODCrkoxMEeNi/XZIwuRvY4XNwYMJpw=="
+      }
+    },
+    "npm:shadcn-ui": {
+      "type": "npm",
+      "name": "npm:shadcn-ui",
+      "data": {
+        "version": "0.9.5",
+        "packageName": "shadcn-ui",
+        "hash": "sha512-dsBQWpdLLYCdSdmvOmu53nJhhWnQD1OiblhuhkI4rPYxPKTyfbmZ2NTJHWMu1fXN9PTfN6IVK5vvh+BrjHJx2g=="
       }
     },
     "npm:shebang-command": {
@@ -26567,6 +26580,13 @@
         "type": "static"
       }
     ],
+    "npm:shadcn-ui": [
+      {
+        "source": "npm:shadcn-ui",
+        "target": "npm:chalk@5.6.2",
+        "type": "static"
+      }
+    ],
     "npm:shebang-command": [
       {
         "source": "npm:shebang-command",
@@ -28452,5 +28472,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1759413252121
+  "computedAt": 1759416304453
 }

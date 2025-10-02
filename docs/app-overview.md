@@ -10,9 +10,12 @@ This web application enables users to upload images of a room. The images are an
 - **Results Display:** Users receive a summary of findings and recommendations.
 
 ## Technology Stack
-- **Frontend:** React (TypeScript)
-- **Monorepo Management:** Nx
+- **Frontend:** React (TypeScript) with Tailwind CSS and shadcn/ui
+- **Monorepo Management:** Nx (scaffolded monorepo)
 - **Backend:** Node.js (TypeScript)
+- **Package Manager:** npm
+- **Styling:** Tailwind CSS
+- **Component Library:** shadcn/ui
 - **Testing:** Playwright (for end-to-end tests)
 - **AI Model Integration:** MCP (Model Control Platform, or specify if different)
 
@@ -37,6 +40,11 @@ For detailed user experience and styling guidelines, see [docs/ux-overview.md](.
 - **Keyboard Navigation**: Complete workflow possible using keyboard alone
 - **Screen Reader Support**: All interactive elements properly labeled for accessibility
 - **Reduced Motion Option**: Alternative to animations for users with vestibular disorders
+
+## Design System & Component Development
+- **Design Reference:** Figma design brief (see docs/figma-design-prompt.md)
+- **Component Library:** shadcn/ui for accessible, customizable React components
+- **Implementation:** Components will be built to match Figma design and accessibility guidelines
 
 ## Next Steps
 - Scaffold Nx workspace with React and Node apps.

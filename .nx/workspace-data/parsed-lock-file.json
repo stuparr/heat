@@ -1818,6 +1818,15 @@
         "hash": "sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA=="
       }
     },
+    "npm:chalk@5.6.2": {
+      "type": "npm",
+      "name": "npm:chalk@5.6.2",
+      "data": {
+        "version": "5.6.2",
+        "packageName": "chalk",
+        "hash": "sha512-7NzBL0rN6fMUW+f7A6Io4h40qQlG+xGmtMxfbnH/K7TAtt8JQWVQK+6g0UXKMeVJoyV5EkkNsErQ8pVD3bLHbA=="
+      }
+    },
     "npm:@module-federation/data-prefetch": {
       "type": "npm",
       "name": "npm:@module-federation/data-prefetch",
@@ -10735,6 +10744,15 @@
         "version": "1.2.0",
         "packageName": "setprototypeof",
         "hash": "sha512-E5LDX7Wrp85Kil5bhZv46j8jOeboKq5JMmYM3gVGdGH8xFpPWXUMsNrlODCrkoxMEeNi/XZIwuRvY4XNwYMJpw=="
+      }
+    },
+    "npm:shadcn-ui": {
+      "type": "npm",
+      "name": "npm:shadcn-ui",
+      "data": {
+        "version": "0.9.5",
+        "packageName": "shadcn-ui",
+        "hash": "sha512-dsBQWpdLLYCdSdmvOmu53nJhhWnQD1OiblhuhkI4rPYxPKTyfbmZ2NTJHWMu1fXN9PTfN6IVK5vvh+BrjHJx2g=="
       }
     },
     "npm:shebang-command": {
@@ -24883,6 +24901,11 @@
     {
       "source": "npm:set-proto",
       "target": "npm:es-object-atoms",
+      "type": "static"
+    },
+    {
+      "source": "npm:shadcn-ui",
+      "target": "npm:chalk@5.6.2",
       "type": "static"
     },
     {
